@@ -2,29 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { App } from './App';
-import AdapterDateFns from '@mui/lab/AdapterDateFns';
-import LocalizationProvider from '@mui/lab/LocalizationProvider';
-import {
-  ThemeProvider,
-  createTheme,
-  StyledEngineProvider,
-} from '@mui/material/styles';
+import { StyledEngineProvider } from '@mui/material/styles';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-
-const theme = createTheme({
-  palette: {
-    mode: 'dark',
-  },
-});
+import { TranslationProvider } from './components/TranslationProvider';
+import { ColorThemeProvider } from './ColorThemeProvider';
 
 ReactDOM.render(
-  <StyledEngineProvider injectFirst>
-    <ThemeProvider theme={theme}>
-      <LocalizationProvider dateAdapter={AdapterDateFns}>
+  <TranslationProvider>
+    <StyledEngineProvider injectFirst>
+      <ColorThemeProvider>
         <App />
-      </LocalizationProvider>
-    </ThemeProvider>
-  </StyledEngineProvider>,
+      </ColorThemeProvider>
+    </StyledEngineProvider>
+  </TranslationProvider>,
   document.getElementById('root')
 );
 

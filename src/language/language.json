@@ -1,0 +1,42 @@
+{
+    "EN": {
+        "app.loading": "Loading...",
+        "app.restart": "Restart app",
+        "app.settings": "Settings",
+        "app.language": "Select language:",
+        "app.theme": "Select theme:",
+        "setup.button": "Go ahead to survive",
+        "datePicker.payday": "Select your next payday: ",
+        "datePicker.okButton": "Select",
+        "datePicker.clearButton": "Clear",
+        "datePicker.label": "Payday",
+        "money.available": "Enter the amount of money available",
+        "money.label": "Money till payday",
+        "money.spent": "Enter the amount of money spent",
+        "money.spentLabel": "was spent today...",
+        "money.spentApply": "Apply",
+        "money.total": "Total amount of money",
+        "money.spendEveryDay": "Spend every next day",
+        "money.remainTillPayday": "Remain days till payday"
+    },
+    "RU": {
+        "app.loading": "Загрузка...",
+        "app.restart":"Рестарт приложения",
+        "app.settings": "Настройки",
+        "app.language": "Выбрать язык:",
+        "app.theme": "Выбрать тему:",
+        "setup.button": "Вперед выживать",
+        "datePicker.payday": "Выберите день следующей зарплаты: ",
+        "datePicker.okButton": "Выбрать",
+        "datePicker.clearButton": "Очистить",
+        "datePicker.label": "День зарплаты",
+        "money.available": "Введите количество доступных денег",
+        "money.label": "Денег до зарплаты",
+        "money.spent": "Введите потраченное количество денег",
+        "money.spentLabel": "было потраченно сегодня...",
+        "money.spentApply": "Применить",
+        "money.total": "Всего денег",
+        "money.spendEveryDay": "Тратить каждый следующий день",
+        "money.remainTillPayday": "Осталось дней до зарплаты"
+    }
+}
